@@ -1,5 +1,9 @@
 import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
+export default defineConfig({
+  base: "/ai-roadmap-orchestrator/"
+})
+
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
